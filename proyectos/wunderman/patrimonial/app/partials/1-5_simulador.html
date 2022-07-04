@@ -1,0 +1,270 @@
+<div id="calcAlert" class="calcAlertStyle">
+    <div class="calcAlertWindow noSelect">
+    <div onClick="window.calcSim.showAlert(false,'');"> <img src="images/sim/closeicon.png"></div>
+    <p id="calcAlertTextP" class="calcAlertText">
+        
+    </p>
+    </div>
+</div>
+<div id="wrapperIntro" class="anim-fade">
+    <p class="calcDisclaimerTitle">
+    El valor de las acciones de Sociedades o Fondos de Inversión conlleva un riesgo de mercado incluyendo
+una posible minusvalía del capital invertido. Estos productos no están garantizados por Banamex/Accival
+o por alguna entidad integrante del Grupo Financiero Banamex o Citigroup, ni por ninguna entidad gubernamental.
+    </p>
+    <p class="calcDisclaimerText">
+    No existe ninguna garantía de que se cumplan las previsiones o las opiniones expresadas en este material.
+La información contenida en este material, no deberá interpretarse como asesoramiento de inversión.
+Rendimientos pasados, no garantizan desempeños futuros.
+Fuentes: IPC(Bloomberg). Impulsora de Fondos Banamex con datos de Bloomberg al 31 de diciembre de 2015
+Se utilizaron series BNMDIN.BOB, GOLD1+.BOC,GOLD2+B1A, GOLD3+.B1C,GOLD4+.B1D y GOLD5+.B2A
+(Desempeño de los Portafolios Estratégicos GOLD+ Impulsora de Fondos Banamex, S.A de C.V 31/12/2014 
+al 31/12/2015).
+    </p>
+    <p class="calcDisclaimerTitle">
+    Sociedades de Inversión de Renta Variable
+    </p>
+     <p class="calcDisclaimerText">
+     Las operaciones de compraventa de acciones representativas del capital social de sociedades de inversión de renta variable están sujetas a cobro de comisión de corretaje
+Los Prospectos de Información al Público Inversionista y Documentos con Información Clave para la Inversión 
+de las Sociedades de Inversión se encuentran a su disposición para su consulta, análisis y conformidad en la página
+de Internet  <a href="http://www.fondosbanamex.com" target="_blank">www.fondosbanamex.com</a>
+Para cualquier pregunta que usted tenga, puede consultar a su Banquero Banamex, quien le explicará y proporcionará
+Información sobre las distintas reservas en inversión, a fin de que usted seleccione la que más convenga 
+a sus objetivos y necesidades.
+     </p>
+     <div onClick="window.showPatCalcPage(1);" class="main-button calcAcept noSelect anim-right">Acepto</div>
+</div>
+<div id="wrapperConfig">
+    <div class="ourproposal-container  ">
+    <article  class="sim-intro sim-config">
+    <h3>Simule su portafolio de inversión.</h3>
+    <p>Seleccione el perfil de riesgo e ingrese el monto de inversión.</p>
+  </article>
+     </div>
+     <div id="configOptions">
+            <select id="calcProfileDrop" class="main-select"> 
+                <option value="1">P1 preservación</option>
+                <option value="2">P2 Moderado</option>
+                <option value="3">P3 Balanceado</option>
+                <option value="4">P4 Crecimiento</option>
+                <option value="5">P5 Oportunidad</option>
+            </select>
+            <input id="calcAmountInput" class="calcInputText" type="number" max="999999999999999" maxlength="15" placeholder="Monto de inversión MXN" value="">
+             <div onClick="window.startPatCalc();" class="main-button calcProcess noSelect">Calcular</div>
+        </div>
+</div>
+<div id="wrapper">
+<div class="ourproposal-container  ">
+    <article id="first-tab-intro" class="sim-intro">
+    <h3>Portafolio modelo acorde a su perfil de inversión.</h3>
+    <p>Nuestro portafolio modelo se integra por una serie de productos de inversión de acuerdo a su perfil, bajo el respaldo institucional del Grupo Financiero Banamex.</p>
+    <div id="calcEmailIcon"> <img src="images/sim/emailIcon.png"></div>
+  </article>
+
+    <div class="calcWrap">
+        <div id="calcInit">
+            <div id="calcInstruct">
+               
+                <div id="calcInitFormDiv">
+                    <form action="javascript:initPatCal();">
+                        <select id="calcRiskSelect">
+                            <option value="0">PERFIL DE RIESGO</option>
+                            <option value="1">P1</option>
+                            <option value="2">P2</option>
+                            <option value="3">P3</option>
+                            <option value="4">P4</option>
+                            <option value="5">P5</option>
+                        </select>
+                        <input type="text" id="calcRiskAmountInput" placeholder="Monto de inversión MXN">
+                        <input type="submit" value="Calcular">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="calcToolBar">
+            <div class= "simToolBorder" id="calcFixedList">
+                <div class="toolbarHeader">
+                Productos fijos del portafolio
+                <div onClick="window.calcSim.showAlert (true,-1,'calcGlossary')"  id="calcHelpIcon"><img src="images/sim/helpIcon.png"></div>
+                </div>
+                <div class="calcTableHeader">
+                Porcentaje recomendado
+                </div>
+                <div id="calcFixedListTable">
+                
+                </div>
+            </div>  
+            <div class="simToolBorder" id="calcSliders">
+                <div class="toolbarHeader">
+                Productos tácticos del portafolio
+                </div>
+                <div class="calcTableHeader">
+                Seleccione un producto y asigne el porcentaje que desea para su portafolio. <span id="calcPendingTacticValues"></span>
+                </div>
+                    <div class="calcDockContent">
+                    
+                        <div class="calcDockLeft">
+                            <ul class= "noSelect" id="calcTacticNamesUl">
+                            <li onClick="window.calcSim.selectTactic(0);">BNMPZO</li>
+                            <li onClick="window.calcSim.selectTactic(1);">BNMREAL</li>
+                            <li onClick="window.calcSim.selectTactic(2);">BNMPAT</li>
+                            <li onClick="window.calcSim.selectTactic(3);">BNMEURV</li>
+                            <li onClick="window.calcSim.selectTactic(4);">BNMUSEQ</li>
+                            <li onClick="window.calcSim.selectTactic(5);">BNMASIA</li>
+                            </ul>
+                            <ul id="calcTacticValuesUl">
+                            <li>0%</li>
+                            <li>0%</li>
+                            <li>0%</li>
+                            <li>0%</li>
+                            <li>0%</li>
+                            <li>0%</li>
+                            
+                            </ul>
+                        </div>
+                         <div class="calcDockRight">
+                            <div id="sliderContainer_1" class="calcSlider"></div>
+                            <div id="sliderContainer_2" class="calcSlider"></div>
+                            <div id="sliderContainer_3" class="calcSlider"></div>
+                            <div id="sliderContainer_4" class="calcSlider"></div>
+                            <div id="sliderContainer_5" class="calcSlider"></div>
+                            <div id="sliderContainer_6" class="calcSlider"></div>
+                            <div class="calcRangeRate"><p id="calcInitRate">0%</p><p id="calcFinalRate">12%</p></div>
+                            <p>
+                                La suma total de estos productos representa sólo el <span id="calcRateLimit">XX%</span> de su portafolio modelo.
+                            </p>
+                         </div>
+                         
+                    </div>
+            </div> 
+            
+        </div>
+        <div id="calcGraphics">
+            <div id="calcTab1" class="calcTabs">
+                
+                <ul>
+                    <li onclick="window.calcSim.showTab(0,'calcTab1',window.calcSim.onTab1);" class="tabInitSec pSelected"><p >Distribución por producto</p></li>
+                    <li onclick="window.calcSim.showTab(1,'calcTab1',window.calcSim.onTab1);" class="tabMiddle"><p >Distribución por clase de activo</p></li>
+                    <li onclick="window.calcSim.showTab(2,'calcTab1',window.calcSim.onTab1);" class="tabEnd"><p>Comportamiento histórico</p></li>
+                </ul>
+            </div>
+            <div class="calcTabsContent">
+            <img onClick="window.calcSim.showAlert (true,1)" id="calcHelpIcon2" src="images/sim/helpIcon2.png">
+                <div id="calcGraphicDiv_1">
+                    <p class="calcGraphicTitle">Distribución por producto</p>
+                    <div id="calcGraphic_1">
+                    </div>
+                </div>
+                <div id="calcGraphicDiv_2">
+                    <p class="calcGraphicTitle">Distibución por clase activo</p>
+                    <div id="calcGraphic_2">
+                    </div>
+                </div>
+                 <div id="calcGraphicDiv_3">
+                 
+                    <div class="calcChartColorsTitle"><p id="calcPortfolioTitle">Rendimiento Portafolio</p><p>Indicadores del mercado</p></div>
+                    <div class="calcChartColors">
+                       <li onClick="window.calcSim.showChartTooltip(3,1, 'Inicial')"><div>&nbsp;</div><span>Monto Inicial</span></li>
+                       <li onClick="window.calcSim.showChartTooltip(3,2, 'Mercado global')"><div>&nbsp;</div><span>Mercado global</span></li>
+                       <li onClick="window.calcSim.showChartTooltip(3,3, 'Inflación')"><div>&nbsp;</div><span>Inflación</span></li>
+                       <li onClick="window.calcSim.showChartTooltip(3,4, 'Interés')"><div>&nbsp;</div><span>Interés</span></li>
+                       <li onClick="window.calcSim.showChartTooltip(3,5, 'CETES')"><div>&nbsp;</div><span>CETES</span></li>
+                    </div>
+                    <div id="calcGraphic_3">
+                    
+                    </div>
+                    <div id="calcGraphic_3Top">
+                        <ul>
+                            <li>12 Meses</li>
+                            <li>3 Años</li>
+                            <li>4 Años</li>
+                        </ul>
+                    </div>
+                    <div class= "calcGraphic_3Callouts_1" id="calcGraphic_3Callouts" style="display:none;">
+                        <ul>
+                            <li>0</li>
+                            <li>0</li>
+                            <li>0</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+    
+    
+    
+    </div>
+</div>
+
+</div>
+<div id="calcGlossary" style="display:none">
+	<h3>ACTIVOS</h3>
+    DCP (Deuda corto plazo): Obligaciones de pago con vencimiento no superior a un año.<br>
+    DLP (Deuda largo plazo): Obligaciones de pago con vencimiento superior a un año.<br>
+    TR (Tasa real): Es la tasa de interés activa ajustada por inflación según el deflactor del PIB.<br>
+    RVG (Renta Variable Global): Activos de renta variable de países de desarrollados.<br>
+    RVL (Renta Variable Local): Activos de renta variable mexicana.<br>
+    RVE (Renta Variable Emergente): Activos de renta variable de países emergentes.<br><br>
+	<table class="calcTooltipTable" width="200" border="1">
+  <tr>
+    <th>Fondo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Bnmdin</td>
+    <td>Invierte en una mezcla de instrumentos de deuda  predominantemente de corto plazo en pesos.</td>
+  </tr>
+  <tr>
+    <td>Bnmpzo</td>
+    <td>Invierte en una mezcla de instrumentos de deuda de  corto, mediano y largo plazo predominantemente en pesos.</td>
+  </tr>
+  <tr>
+    <td>Bnmreal</td>
+    <td>Invierte en una mezcla de instrumentos de deuda de  mediano plazo denominados en UDIS.</td>
+  </tr>
+  <tr class="calcTooltipTableEmpty">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Bnmipc+</td>
+    <td>Invierte en principalmente en acciones de empresas que  forman parte de la muestra del Índice de la Bolsa Mexicana de Valores (IPC),  realizando ajustes de corto plazo para aprovechar oportunidades de mercados</td>
+  </tr>
+  <tr>
+    <td>Bnmpat</td>
+    <td>Invierte en una selección de emisoras definidas  principalmente a un análisis financiero, operativo y de mercado.</td>
+  </tr>
+  <tr class="calcTooltipTableEmpty">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Bnmint1</td>
+    <td>Invierte principalmente en índices de renta variable de mercados desarrollados y emergentes que cotizan en el Sistema Internacional de Cotizaciones.</td>
+  </tr>
+  <tr>
+    <td>Bnmem1</td>
+    <td>Invierte principalmente en índices de renta variable  de mercados emergentes que cotizan en el Sistema Internacional de Cotizaciones.</td>
+  </tr>
+  <tr>
+    <td>Bnmeurv</td>
+    <td>Invierte principalmente en acciones de empresas del  mercado accionario europeo que cotizan en el Sistema Internacional de  Cotizaciones</td>
+  </tr>
+  <tr>
+    <td>Bnmuseq</td>
+    <td>Invierte principalmente en acciones de empresas del  mercado accionario estadunidense que cotizan en el Sistema Internacional de  Cotizaciones</td>
+  </tr>
+    <tr>
+    <td>Bnmasia</td>
+    <td>Invierte principalmente en acciones/índices de empresas del mercado accionario asiático que cotizan en el Sistema Internacional de Cotizaciones
+
+</td>
+  </tr>
+</table>
+</div>
+<style>
+
+
+
+</style>

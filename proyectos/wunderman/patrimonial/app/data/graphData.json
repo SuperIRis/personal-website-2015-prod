@@ -1,0 +1,849 @@
+{
+	"data":{
+		"portfolioGold1":{
+			"pie1":[
+				{
+					"asset":"BNMDIN",
+					"value":80.2
+				},
+				{
+					"asset":"BNMPZO",
+					"value":18.4
+				},
+				{
+					"asset":"Liquidez",
+					"value":1.4
+				}
+			],
+			"pie2":[
+				{
+					"asset":"Deuda LP",
+					"value":18.4
+				},
+				{
+					"asset":"Deuda CP",
+					"value":81.6
+				}
+			],
+			"bar":[
+				{
+					"asset":"jun-15",
+					"value":2.01,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"jul-15",
+					"value":2.08,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"ago-15",
+					"value":1.91,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"sep-15",
+					"value":3.21,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"oct-15",
+					"value":2.64,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"nov-15",
+					"value":0.49,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"dic-15",
+					"value":-0.56,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"ene-16",
+					"value":4.96,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"feb-16",
+					"value":2.74,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"mar-16",
+					"value":4.15,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"abr-16",
+					"value":3.56,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"may-16",
+					"value":0.70,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"value2",
+					"value":3.19,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"12 meses",
+					"value":2.32,
+					"color":"#559dc0"
+				}
+			]
+		},
+		"portfolioGold2":{
+			"pie1":[
+				{
+					"asset":"BNMDIN",
+					"value":28.9
+				},
+				{
+					"asset":"BNMPZO",
+					"value":52.0
+				},
+				{
+					"asset":"FONBNM",
+					"value":2.5
+				},
+				{
+					"asset":"AAXJ",
+					"value":0.2
+				},
+				{
+					"asset":"EPP",
+					"value":0.3
+				},
+				{
+					"asset":"BNMFIBR",
+					"value":0.4
+				},
+				{
+					"asset":"BNMEM1",
+					"value":4.1
+				},
+				{
+					"asset":"BNMINT1",
+					"value":4.3
+				},
+				{
+					"asset":"BNMMED",
+					"value":0.5
+				},
+				{
+					"asset":"BNMPAT",
+					"value":6.9
+				}
+			],
+			"pie2":[
+				{
+					"asset":"Deuda LP",
+					"value":52.0
+				},
+				{
+					"asset":"Deuda CP",
+					"value":28.9
+				},
+				{
+					"asset":"RV Local",
+					"value":9.9
+				},
+				{
+					"asset":"RV Emergente",
+					"value":4.3
+				},
+				{
+					"asset":"RV Global",
+					"value":4.5
+				},
+				{
+					"asset":"Inversiones alternativas",
+					"value":0.4
+				}
+			],
+			"bar":[
+				{
+					"asset":"jun-15",
+					"value":-0.13,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"jul-15",
+					"value":0.20,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"ago-15",
+					"value":-0.73,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"sep-15",
+					"value":-0.43,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"oct-15",
+					"value":1.51,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"nov-15",
+					"value":-0.17,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"dic-15",
+					"value":-0.22,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"ene-16",
+					"value":-0.22,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"feb-16",
+					"value":0.37,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"mar-16",
+					"value":1.39,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"abr-16",
+					"value":0.24,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"may-16",
+					"value":0.24,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"value2",
+					"value":2.03,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"12 meses",
+					"value":2.03,
+					"color":"#559dc0"
+				}
+			]
+		},
+		"portfolioGold3":{
+			"pie1":[
+				{
+					"asset":"BNMDIN",
+					"value":15.8
+				},
+				{
+					"asset":"BNMPZO",
+					"value":39.6
+				},
+				{
+					"asset":"FONBNM",
+					"value":4.9
+				},
+				{
+					"asset":"AAXJ",
+					"value":0.5
+				},
+				{
+					"asset":"EPP",
+					"value":0.5
+				},
+				{
+					"asset":"BNMFIBR",
+					"value":0.7
+				},
+				{
+					"asset":"BNMBONO",
+					"value":6.6
+				},
+				{
+					"asset":"BNMEM1",
+					"value":8.2
+				},
+				{
+					"asset":"BNMINT1",
+					"value":8.6
+				},
+				{
+					"asset":"BNMMED",
+					"value":1.0
+				},
+				{
+					"asset":"BNMPAT",
+					"value":13.7
+				}
+			],
+			"pie2":[
+				{
+					"asset":"Deuda LP",
+					"value":46.1
+				},
+				{
+					"asset":"Deuda CP",
+					"value":15.8
+				},
+				{
+					"asset":"RV Local",
+					"value":19.6
+				},
+				{
+					"asset":"RV Emergente",
+					"value":8.7
+				},
+				{
+					"asset":"RV Global",
+					"value":9.1
+				},
+				{
+					"asset":"Inversiones alternativas",
+					"value":0.7
+				}
+			],
+			"bar":[
+				{
+					"asset":"jun-15",
+					"value":-0.43,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"jul-15",
+					"value":0.34,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"ago-15",
+					"value":-1.58,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"sep-15",
+					"value":-1.21,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"oct-15",
+					"value":2.83,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"nov-15",
+					"value":-0.36,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"dic-15",
+					"value":-0.36,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"ene-16",
+					"value":-0.87,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"feb-16",
+					"value":0.59,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"mar-16",
+					"value":2.30,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"abr-16",
+					"value":0.11,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"may-16",
+					"value":0.73,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"value2",
+					"value":2.87,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"12 meses",
+					"value":2.02,
+					"color":"#559dc0"
+				}
+			]
+		},
+		"portfolioGold4":{
+			"pie1":[
+				{
+					"asset":"BNMDIN",
+					"value":13.2
+				},
+				{
+					"asset":"BNMPZO",
+					"value":13.9
+				},
+				{
+					"asset":"FONBNM",
+					"value":7.3
+				},
+				{
+					"asset":"AAXJ",
+					"value":0.8
+				},
+				{
+					"asset":"EPP",
+					"value":0.8
+				},
+				{
+					"asset":"BNMFIBR",
+					"value":1.1
+				},
+				{
+					"asset":"BNMBONO",
+					"value":6.4
+				},
+				{
+					"asset":"BNMEM1",
+					"value":12.2
+				},
+				{
+					"asset":"BNMINT1",
+					"value":12.8
+				},
+				{
+					"asset":"BNMMED",
+					"value":1.5
+				},
+				{
+					"asset":"BNMPAT",
+					"value":20.5
+				}
+			],
+			"pie2":[
+				{
+					"asset":"Deuda LP",
+					"value":29.8
+				},
+				{
+					"asset":"Deuda CP",
+					"value":13.2
+				},
+				{
+					"asset":"RV Local",
+					"value":29.3
+				},
+				{
+					"asset":"RV Emergente",
+					"value":13.0
+				},
+				{
+					"asset":"RV Global",
+					"value":13.6
+				},
+				{
+					"asset":"Inversiones alternativas",
+					"value":1.1
+				}
+			],
+			"bar":[
+				{
+					"asset":"jun-15",
+					"value":-0.82,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"jul-15",
+					"value":0.48,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"ago-15",
+					"value":-2.47,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"sep-15",
+					"value":-2.09,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"oct-15",
+					"value":4.11,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"nov-15",
+					"value":-0.59,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"dic-15",
+					"value":-0.53,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"ene-16",
+					"value":-1.54,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"feb-16",
+					"value":0.77,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"mar-16",
+					"value":3.16,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"abr-16",
+					"value":-0.08,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"may-16",
+					"value":1.18,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"value2",
+					"value":3.48,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"12 meses",
+					"value":1.39,
+					"color":"#559dc0"
+				}
+			]
+		},
+		"portfolioGold5":{
+			"pie1":[
+				{
+					"asset":"BNMDIN",
+					"value":9.0
+				},
+				{
+					"asset":"BNMGUB3",
+					"value":11.7
+				},
+				{
+					"asset":"FONBNM",
+					"value":9.7
+				},
+				{
+					"asset":"AAXJ",
+					"value":1.0
+				},
+				{
+					"asset":"EPP",
+					"value":1.0
+				},
+				{
+					"asset":"BNMFIBR",
+					"value":1.5
+				},
+				{
+					"asset":"BNMBONO",
+					"value":3.7
+				},
+				{
+					"asset":"BNMEM1",
+					"value":16.2
+				},
+				{
+					"asset":"BNMINT1",
+					"value":17.0
+				},
+				{
+					"asset":"BNMMED",
+					"value":2.0
+				},
+				{
+					"asset":"BNMPAT",
+					"value":27.2
+				}
+			],
+			"pie2":[
+				{
+					"asset":"Deuda LP",
+					"value":15.4
+				},
+				{
+					"asset":"Deuda CP",
+					"value":9.0
+				},
+				{
+					"asset":"RV Local",
+					"value":38.9
+				},
+				{
+					"asset":"RV Emergente",
+					"value":17.3
+				},
+				{
+					"asset":"RV Global",
+					"value":18.0
+				},
+				{
+					"asset":"Inversiones alternativas",
+					"value":1.5
+				}
+			],
+			"bar":[
+				{
+					"asset":"jun-15",
+					"value":-1.14,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"jul-15",
+					"value":0.63,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"ago-15",
+					"value":-3.34,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"sep-15",
+					"value":-2.90,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"oct-15",
+					"value":5.43,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"nov-15",
+					"value":-0.74,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"dic-15",
+					"value":-0.64,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"ene-16",
+					"value":-2.23,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"feb-16",
+					"value":1.00,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"mar-16",
+					"value":4.02,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"abr-16",
+					"value":-0.25,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"may-16",
+					"value":1.77,
+					"color":"#559dc0"
+				},
+				{
+					"asset":"value2",
+					"value":4.27,
+					"color":"#1c2b5c"
+				},
+				{
+					"asset":"12 meses",
+					"value":1.25,
+					"color":"#559dc0"
+				}
+			]
+		},
+		"portfolioGoldAll":{
+			"pie1":[
+				{
+					"asset":"DCP",
+					"value":100
+				}
+			],
+			"pie2":[
+				{
+					"asset": "RVL",
+					"value": 10
+				}, 
+				{
+					"asset": "RVG",
+					"value": 5
+				},
+				{
+					"asset": "RVE",
+					"value": 5
+				},
+				{
+					"asset": "DCP",
+					"value": 60
+				},
+				{
+					"asset": "DLP",
+					"value": 20
+				}
+			],
+			"pie3":[
+				{
+					"asset": "RVL",
+					"value": 20
+				},
+				{
+					"asset": "RVG",
+					"value": 10
+				},
+				{
+					"asset": "RVE",
+					"value": 10
+				},
+				{
+					"asset": "DCP",
+					"value": 40
+				},
+				{
+					"asset": "DLP",
+					"value": 20
+				}
+			],
+			"pie4":[
+				{
+					"asset": "RVL",
+					"value": 30
+				},
+				{
+					"asset": "RVG",
+					"value": 15
+				},
+				{
+					"asset": "RVE",
+					"value": 15
+				},
+				{
+					"asset": "DCP",
+					"value": 20
+				},
+				{
+					"asset": "DLP",
+					"value": 20
+				}
+			],
+			"pie5":[
+				{
+					"asset": "RVL",
+					"value": 40
+				},
+				{
+					"asset": "RVG",
+					"value": 20
+				},
+				{
+					"asset": "RVE",
+					"value": 20
+				},
+				{
+					"asset": "DCP",
+					"value": 5
+				},
+				{
+					"asset": "DLP",
+					"value": 15
+				}
+			]
+		},
+		"panoramaMarket":{
+			"dbar":[
+				{
+					"investments": "CETES\n28 DÍAS",
+					"value1": 20,
+					"value2": 15
+				},
+				{
+					"investments": "DEUDA\nLARGO\nPLAZO",
+					"value1": 10,
+					"value2": 4
+				},
+				{
+					"investments": "DÓLAR",
+					"value1": 9,
+					"value2": 10
+				},
+				{
+					"investments": "RENTA\nVARIABLE\nLOCAL",
+					"value1": 7,
+					"value2": 1
+				},
+				{
+					"investments": "RENTA\nVARIABLE\nGLOBAL",
+					"value1": 24,
+					"value2": 10
+				},
+				{
+					"investments": "RENTA\nVARIABLE\nEMERGENTE",
+					"value1": 6,
+					"value2": 1
+				},
+				{
+					"investments": "COMMODITIES",
+					"value1": -5,
+					"value2": -10
+				}
+			],
+			"dbar2":[
+				{
+					"investments": "IPC",
+					"value1": 13,
+					"value2": 10
+				},
+				{
+					"investments": "DOW JONES",
+					"value1": 8,
+					"value2": 2
+				},
+				{
+					"investments": "S&P 500",
+					"value1": 7,
+					"value2": 6
+				},
+				{
+					"investments": "DAX",
+					"value1": 5,
+					"value2": 6
+				},
+				{
+					"investments": "FTSE 100",
+					"value1": 4,
+					"value2": 1
+				},
+				{
+					"investments": "BOVESPA",
+					"value1": 17,
+					"value2": 7
+				}
+			]
+		}	
+	}
+}
