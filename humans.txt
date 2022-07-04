@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  SuperIRis -- Developer / Designer / Creative -- @SuperIRis
+
+# THANKS
+
+  Google
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, JS
